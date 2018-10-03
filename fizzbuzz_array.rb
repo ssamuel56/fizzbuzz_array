@@ -17,7 +17,7 @@ number = 1
 until number == 101
   buzz(number, fizz_array)
   number += 1
-  if number > 100
-    print fizz_array
+  if number == 100
+    p fizz_array
   end
 end
