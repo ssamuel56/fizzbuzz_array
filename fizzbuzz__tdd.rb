@@ -9,6 +9,6 @@ class Testing < Minitest::Test
     assert_equal(1, buzz(1))
   end
   def test_buzz_2
-    assert_equal("mined", buzz(15))
+    assert_equal(["mined"], buzz(15))
   end
 end
