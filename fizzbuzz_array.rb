@@ -13,3 +13,10 @@ def buzz(number)
     fizz_array<< number
   end
 end
+
+number = 1
+
+until number == 101
+  puts buzz(number)
+  number += 1
+end
