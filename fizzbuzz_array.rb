@@ -1,8 +1,6 @@
-def fizz_array()
-  []
-end
+fizz_array = []
 
-def buzz(number)
+def buzz(number, fizz_array)
   if number % 15 == 0
     fizz_array<< "mined"
   elsif number % 5 == 0
@@ -17,6 +15,9 @@ end
 number = 1
 
 until number == 101
-  puts buzz(number)
+  buzz(number, fizz_array)
   number += 1
+  if number > 100
+    print fizz_array
+  end
 end
