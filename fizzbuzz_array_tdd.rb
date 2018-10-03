@@ -6,15 +6,15 @@ class Testing < Minitest::Test
     assert_equal(Array, fizz_array().class)
   end
   def test_buzz1
-    assert_equal([1], buzz(1))
+    assert_equal([1], buzz(1, fizz_array))
   end
   def test_buzz_2
-    assert_equal(["mined"], buzz(15))
+    assert_equal(["mined"], buzz(15, fizz_array))
   end
   def test_buzz_3
-    assert_equal(["minds"], buzz(5))
+    assert_equal(["minds"], buzz(5, fizz_array))
   end
   def test_buzz_4
-    assert_equal(["mined minds"], buzz(3))
+    assert_equal(["mined minds"], buzz(3, fizz_array))
   end
 end

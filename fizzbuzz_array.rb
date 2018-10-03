@@ -1,4 +1,6 @@
-fizz_array = []
+def fizz_array
+  fizz_array = []
+end
 
 def buzz(number, fizz_array)
   if number % 15 == 0
@@ -18,6 +20,6 @@ until number == 101
   buzz(number, fizz_array)
   number += 1
   if number == 101
-    p fizz_array
+    print fizz_array
   end
 end
