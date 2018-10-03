@@ -15,6 +15,6 @@ class Testing < Minitest::Test
     assert_equal(["minds"], buzz(5))
   end
   def test_buzz_4
-    assert_equal([], buzz(3))
+    assert_equal(["mined minds"], buzz(3))
   end
 end
