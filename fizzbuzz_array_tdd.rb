@@ -24,6 +24,6 @@ class Testing < Minitest::Test
     assert_equal([38], buzz(38, fizz_array))
   end
   def test_buzz7
-    assert_equal([], buzz(75, fizz_array))
+    assert_equal(["mined"], buzz(75, fizz_array))
   end
 end
