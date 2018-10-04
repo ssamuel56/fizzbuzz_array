@@ -29,8 +29,8 @@ until number == 101
   end
 end
 
-puts "\n"
-puts '-' * 120
+puts "\n \n"
+puts '-' * 80
 puts "\n"
 
 number = 1
