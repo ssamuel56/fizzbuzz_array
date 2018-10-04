@@ -19,6 +19,8 @@ end
 number = 1
 fizz_array = []
 
+puts "\n"
+
 until number == 101
   buzz(number, fizz_array)
   number += 1
@@ -43,3 +45,5 @@ loop do
     break
   end
 end
+
+puts "\n \n \n"
