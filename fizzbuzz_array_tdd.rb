@@ -20,4 +20,7 @@ class Testing < Minitest::Test
   def test_buzz_5
     assert_equal(["minds"], buzz(20, fizz_array))
   end
+  def test_buzz_6
+    assert_equal([], buzz(38, fizz_array))
+  end
 end
