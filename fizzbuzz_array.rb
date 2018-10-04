@@ -26,3 +26,20 @@ until number == 101
   print  fizz_array[0..100]
   end
 end
+
+puts "\n"
+puts '-' * 120
+puts "\n"
+
+number = 1
+fizz_array = []
+
+loop do
+  if number <= 99
+    buzz(number, fizz_array)
+    number += 1
+  else
+    print buzz(number, fizz_array)
+    break
+  end
+end
