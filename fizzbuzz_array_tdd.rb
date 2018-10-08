@@ -38,4 +38,7 @@ class Testing < Minitest::Test
   def test_buzz11
     assert_equal([17], buzz(17, fizz_array))
   end
+  def test_buzz12
+    assert_equal([28], buzz(28, fizz_array))
+  end
 end
